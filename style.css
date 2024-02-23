@@ -65,6 +65,10 @@
     background-color: rgb(0, 102, 255);
 }
 
+.equals:active {
+    background-color: rgb(0, 102, 255);
+}
+
 .action:active {
     background-color: rgb(255, 196, 0);
 }
@@ -77,9 +81,11 @@
     width: 203px;
 }
 
-.operator {
+.operator, .equals {
     background-color: darkblue;
 }
+
+
 
 .action {
     background-color: orange;
